@@ -1,0 +1,11 @@
+ServiceApplication$1.class
+ServiceModule.class
+Run.class
+InterfaceAdapter.class
+ServiceConfiguration.class
+ExternalDTO.class
+Resource/HealthResource.class
+implementation/AnimalInterface.class
+implementation/DogAnimalImplementation.class
+implementation/CatAnimalImplementation.class
+ServiceApplication.class

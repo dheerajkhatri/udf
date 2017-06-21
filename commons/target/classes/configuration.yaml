@@ -1,0 +1,16 @@
+server:
+    applicationContextPath : /
+
+    applicationConnectors:
+      - type: http
+        port: 9090
+        acceptorThreads: 6
+        selectorThreads: 12
+    adminConnectors:
+      - type: http
+        port: 9091
+        acceptorThreads: 1
+        selectorThreads: 1
+
+logging:
+    level: INFO
