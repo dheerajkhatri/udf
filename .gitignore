@@ -1,0 +1,13 @@
+/target/*
+*.DS_Store
+pom.xml.*
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+/out/
+/*.iml
+/.idea/
+/metastore_db/
+*.zip
+*.idea*
+*.log

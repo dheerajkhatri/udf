@@ -13,13 +13,6 @@
     </modules>
     <dependencies>
 
-        <!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
-        <dependency>
-            <groupId>com.google.code.gson</groupId>
-            <artifactId>gson</artifactId>
-            <version>2.2.4</version>
-        </dependency>
-
         <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
         <dependency>
             <groupId>org.projectlombok</groupId>
@@ -76,26 +69,47 @@
             <version>1.0.10</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/org.apache.hive/hive-exec -->
+        <dependency>
+            <groupId>org.apache.hive</groupId>
+            <artifactId>hive-exec</artifactId>
+            <version>0.10.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.hbase</groupId>
+            <artifactId>hbase-shaded-client</artifactId>
+            <version>1.2.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>3.11</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.hbase</groupId>
+            <artifactId>hbase-client</artifactId>
+            <version>1.2.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.hbase</groupId>
+            <artifactId>hbase-server</artifactId>
+            <version>1.2.2</version>
+        </dependency>
+
 
     </dependencies>
 
     <repositories>
         <repository>
-            <id>flipkart-central-libs-rel</id>
-            <name>libs-release</name>
-            <url>http://artifactory.nm.flipkart.com:8081/artifactory/libs-release</url>
+            <id>fk-art-snapshot</id>
+            <name>Flipkart-Artifactory</name>
+            <url>http://10.85.59.116/artifactory/v1.0/artifacts/libs-snapshots-local</url>
         </repository>
         <repository>
-            <id>flipkart-central-libs-snapshot</id>
-            <name>libs-snapshot</name>
-            <url>http://artifactory.nm.flipkart.com:8081/artifactory/libs-snapshot</url>
-        </repository>
-        <repository>
-            <id>flipkart-central</id>
-            <url>http://artifactory.nm.flipkart.com:8081/artifactory/repo</url>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
+            <id>fk-art-release</id>
+            <name>Flipkart-Artifactory</name>
+            <url>http://10.85.59.116/artifactory/v1.0/artifacts/libs-release-local</url>
         </repository>
     </repositories>
 
